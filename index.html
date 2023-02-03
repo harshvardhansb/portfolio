@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== Mouse follower ===============-->
+        <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+
+        <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Harsh</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                    Harsh Vardhan Singh
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link">Projects</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#exp" class="nav__link">Experience</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Participation</a>
+                        </li>
+
+                        
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- HOME SLIDER 1 -->
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/logome.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Yup that's me</h4>
+                                        <span class="home__details-subtitle">Harsh Vardhan Singh</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">CS undergrad</h3>
+                                    <h1 class="home__title">Harsh <br> Vardhan  <br> Singh</h1>
+                                    <p class="home__description">Hi, I'm a computer science student and front-end web developer with 
+                                        a passion for programming. I'm excited 
+                                        to work on innovative projects and constantly 
+                                        improve my skills.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="https://drive.google.com/file/d/1y9d5O33iTt9fP2zCwBU-nOELZ_aT3szO/view?usp=share_link" class="button">MY RESUME</a>
+                                        <a href="https://github.com/harshvardhansb" class="button--link button--flex">GitHub <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <!--==================== CATEGORY ====================-->
+            <section class="section category">
+                <h2 class="section__title">Wanna Connect !</h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <a href="https://www.linkedin.com/in/harshvardhansb/"><img src="assets/img/linkedin-min.png" alt="" class="category__img"></a>
+                        <a href="https://www.linkedin.com/in/harshvardhansb/"><h3 class="category__title">LinkdIN</h3></a>
+                        <p class="category__description">Connect with me on LinkedIn to learn more about my professional background, skills and experience</p>
+                    </div>
+
+                    <div class="category__data">
+                        <a href="https://www.instagram.com/harshvardhansb/"><img src="assets/img/github-min.png" alt="" class="category__img"></a>
+                        <a href="https://www.instagram.com/harshvardhansb/"><h3 class="category__title">GitHub</h3></a>
+                        <p class="category__description">Take a look at my GitHub profile to see my coding projects and contributions to open-source communities: </p>
+                    </div>
+
+                    <div class="category__data">
+                        <a href="https://www.instagram.com/harshvardhansb/"><img src="assets/img/instagram-min.png" alt="" class="category__img"></a>
+                        <a href="https://www.instagram.com/harshvardhansb/"><h3 class="category__title">Insagram</h3></a>
+                        <p class="category__description">Check out my Instagram for a glimpse into my projects, interests and daily life</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">ABOUT</h2>
+                        <p class="about__description">Hello, my name is Harsh Vardhan, and I am 
+                            currently studying Computer Science at 
+                            Harcourt Butler Technical University,Kanpur-India. In addition to my 
+                            studies, I am also a front-end web developer,
+                             utilizing my skills in HTML, CSS, and 
+                             JavaScript to create dynamic and engaging 
+                             websites. I am passionate about programming
+                              and am always looking for new and challenging
+                               projects to work on.
+                        </p>
+                        <a href="#" class="button">Hire Me</a>
+                    </div>
+
+                    <img src="assets/img/about-min.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--==================== TRICK OR TREAT ====================-->
+            <section class="section trick" id="trick">
+                <h2 class="section__title">Projects</h2>
+
+                <div class="trick__container container grid">
+                    <div data-cursor-img="assets/img/p4.png" class="trick__content">
+                        <img src="assets/img/sde.png" alt="" class="trick__img">
+                        <h3 class="trick__title">SDE-SHEET</h3>
+                        <span class="trick__subtitle">React based web-app to keep track on your progress of solving DSA questions</span>
+                        <a href="https://sdesheet.vercel.app/"><span class="trick__price">Link</span></a>
+                        <button class="button trick__button">
+                            <i class='bx mdi:link-variant trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/chat.png" alt="" class="trick__img">
+                        <h3 class="trick__title">ChatRoom</h3>
+                        <span class="trick__subtitle">React based chat application which uses Firebase as database</span>
+                        <a href="https://github.com/harshvardhansb/chatRoom"><span class="trick__price">Link</span></a>
+                        <button class="button trick__button">
+                            <i class='bx mdi:link-variant trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div data-cursor-img="assets/img/cover.png" class="trick__content">
+                        <img src="assets/img/recipe.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Recipe Web-App</h3>
+                        <span class="trick__subtitle">Web based application to get multiple recipes of different dishes.</span>
+                        <a href="https://harshvardhansb.github.io/foodrecipes.github.io/"><span class="trick__price">Link</span></a>
+                        <button class="button trick__button">
+                            <i class='bx mdi:link-variant trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div data-cursor-img="assets/img/p5.png" class="trick__content">
+                        <img src="assets/img/crypto.png" alt="" class="trick__img">
+                        <h3 class="trick__title">CryptoTracker</h3>
+                        <span class="trick__subtitle">A react base cryptocurrency finance price tracker app
+                            • The application is CoinGecko Crypto Data API</span>
+                            <a href="https://github.com/harshvardhansb/CryptoTracker"><span class="trick__price">Link</span></a>
+                        <button class="button trick__button">
+                            <i class='bx mdi:link-variant trick__icon'></i>
+                        </button>
+                    </div> 
+                    
+                    <div class="trick__content">
+                        <img src="assets/img/pp.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Portfolio</h3>
+                        <span class="trick__subtitle">Web based responsive Portfolio website</span>
+                        <a href="#"><span class="trick__price">Link</span></a>
+                        <button class="button trick__button">
+                            <i class='bx mdi:link-variant trick__icon'></i>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+            
+            <!--==================== DISCOUNT ====================-->
+            <section id="exp" class="section discount">
+                <div  class="discount__container container grid">
+                    <div class="discount__data">
+                        <h1 class="discount__title">Experience </h1>
+                        <p class="about__description" style="text-align: right;">
+                            <h3>GitHub repository maintainer</h3><br>
+                             
+                             During this <a href="https://hacktoberfest.com/" style="color: white;">Hacktober Fest 2022, </a> <br>
+                              I was responsible for reviewing and merging pull <br>
+                              requests, as well as providing guidance and feedback<br>
+                               to contributors. I enjoyed the opportunity to work <br>
+                               with a diverse group of developers and help them <br>
+                               contribute to open-source projects. Through this <br>
+                               experience, I have gained valuable skills in project<br>
+                                management, collaboration, and code review.<br>
+                        </p>
+                        <a href="https://github.com/harshvardhansb/TourGuide" class="button">GitHub repository</a>
+                    </div>
+
+                   <img src="assets/img/expimg.png" alt="" class="discount__img"> 
+                </div>
+            </section>
+
+            <!--==================== NEW ARRIVALS ====================-->
+            <section class="section new" id="new">
+                <h2 class="section__title">Attainments</h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="new__content swiper-slide">
+                                <a href="https://auth.geeksforgeeks.org/user/harsh0vardhan0/practice"><div class="new__tag">Link</div></a>
+                                <img src="assets/img/new1-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Problem Solving</h3>
+                                <span class="new__subtitle">Solved 300+ problems across codechef , codeforces and geeksforgeeks</span>
+                                
+                                <div class="new__prices">
+                                    <span class="new__price">GeeksForGeeks Link ↘️</span>
+                                    <!-- <span class="new__discount">$29.99</span> -->
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx mdi:link-variant new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <a href="https://drive.google.com/file/d/1VtlWVQlAELRhUFQAqQYw2IC11tWYTdy_/view?usp=sharing"><div class="new__tag">Link</div></a>
+                                <img src="assets/img/new2-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Google KickStart</h3>
+                                <span class="new__subtitle">
+                                    1897th Rank in Google KickStart RoundF</span>
+        
+                             
+
+                                <button class="button new__button">
+                                    <i class='bx mdi:link-variant new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <a href="https://drive.google.com/file/d/1pKp1o1r03gy_14OHxsjfg2VJEI-e8WrP/view?usp=sharing"><div class="new__tag">Link</div></a>
+                                <img src="assets/img/new3-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Google CodeJam</h3>
+                                <span class="new__subtitle">8897th Rank in Google CodeJam Round1</span>
+        
+                               
+
+                                <button class="button new__button">
+                                    <i class='bx mdi:link-variant new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <a href="https://www.cloudskillsboost.google/public_profiles/12ce0264-f51c-4d62-8591-12d512231579/badges/1656592"><div class="new__tag">Link</div></a>
+                                <img src="assets/img/new4-img.png" alt="" class="new__img">
+                                <h3 class="new__title">Google Cloud</h3>
+                                <span class="new__subtitle">Contributed in Google Learn To Earns program , completed three levels program
+                                    and won Google Cloud Swags
+                                    
+                                    
+                                    </span>
+        
+                                
+
+                                <button class="button new__button">
+                                    <i class='bx mdi:link-variant new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <a href="https://github.com/harshvardhansb/TourGuide"><div class="new__tag">Link</div></a>
+                                <img src="assets/img/new5-img.png" alt="" class="new__img">
+                                <h3 class="new__title">HacktoberFest</h3>
+                                <span class="new__subtitle">Contributed to 3+ repositories with 10+ accepted PRs</span>
+        
+                                
+
+                                <button class="button new__button">
+                                    <i class='bx mdi:link-variant new__icon'></i>
+                                </button>
+                            </div>
+        
+                        
+
+                                <button class="button new__button">
+                                    <i class='bx mdi:link-variant new__icon'></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        
+        </main>
+
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                            Portfolio
+                        </a>
+
+                        <p class="footer__description">Think like a proton.<br>Always positive.</p>
+                        
+                        <div class="footer__social">
+                            <a href="mailto:harsh0vardhan0@gmail.com" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-gmail'></i>
+                            </a>
+                            <a href="https://www.instagram.com/harshvardhansb/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/harshvardhansb/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-linkedin' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Profiles</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="https://github.com/harshvardhansb" class="footer__link">GitHub</a>
+                            </li>
+                            <li>
+                                <a href="https://auth.geeksforgeeks.org/user/harsh0vardhan0/practice" class="footer__link">GeeksForGeeks</a>
+                            </li>
+                            <li>
+                                <a href="https://leetcode.com/harshvardhansb/" class="footer__link">Leetcode</a>
+                            </li>
+
+
+                            
+                        </ul>
+                    </div>
+
+                   
+
+                    
+                </div>
+
+                <span class="footer__copy">&#169; HarshVardhanSB.</span>
+
+                <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
+                <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
+            </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+
+            <!--=============== Mouse follower ===============-->
+            <script>
+                const cursor = new MouseFollower({
+            container: '.main',
+            speed: 0.3
+                });
+            </script>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
